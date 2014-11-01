@@ -7,8 +7,7 @@ import org.apache.pig.data.TupleFactory;
 
 import org.junit.Assert;
 import org.junit.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+
 
 /**
  * Unit test for simple Upper.
@@ -48,6 +47,9 @@ public class UpperTest
         	tuple2.append("");
         	Assert.assertEquals("", new Upper().exec(tuple2) );
         	
+        	Tuple tuple3 = TupleFactory.getInstance().newTuple();
+        	tuple3.append("MIKE");
+        	Assert.assertEquals("MIKE", new Upper().exec(tuple3) );
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
