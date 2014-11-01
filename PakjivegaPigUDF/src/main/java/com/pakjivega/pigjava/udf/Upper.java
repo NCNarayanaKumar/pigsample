@@ -3,7 +3,7 @@ import java.io.IOException;
 import org.apache.pig.EvalFunc;
 import org.apache.pig.data.Tuple;
 
-public class UPPER extends EvalFunc<String>
+public class Upper extends EvalFunc<String>
 {
   public String exec(Tuple input) throws IOException {
       if (input == null || input.size() == 0)
