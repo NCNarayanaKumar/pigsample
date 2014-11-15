@@ -1,0 +1,5 @@
+1:John:1970-03-21:Management:40000:US
+2:Joey:1970-03-21:Management:40000:US
+3:Mike:1980-05-30:Marketing:35000:UK
+4:Mary:1982-06-23:Marketing:33000:US
+5:Andrew:1981-07-23:Marketing:32000:US
